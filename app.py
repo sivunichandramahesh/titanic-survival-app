@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
 
 # Load trained model
 with open("logistic_model.pkl", "rb") as f:
