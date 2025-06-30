@@ -1,5 +1,6 @@
+--prefer-binary
 streamlit
 pandas
-numpy
-scikit-learn==1.2.2  # or whatever version you used
+numpy==1.24.3
+scikit-learn==1.2.2
 joblib
